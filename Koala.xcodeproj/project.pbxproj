@@ -14,7 +14,7 @@
 		CE72F8582B7DCBC000E13E4C /* KoalaWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72F8572B7DCBC000E13E4C /* KoalaWatchTests.swift */; };
 		CE72F8622B7DCBC000E13E4C /* KoalaWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72F8612B7DCBC000E13E4C /* KoalaWatchUITests.swift */; };
 		CE72F8642B7DCBC000E13E4C /* KoalaWatchUILaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72F8632B7DCBC000E13E4C /* KoalaWatchUILaunchTests.swift */; };
-		CE72F8672B7DCBC000E13E4C /* KoalaWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CE72F8442B7DCBBE00E13E4C /* KoalaWatch.app */; platformFilters = (ios, xros, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE72F8672B7DCBC000E13E4C /* KoalaWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CE72F8442B7DCBBE00E13E4C /* KoalaWatch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CEF2C5722B7DC2F30063592B /* KoalaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2C5712B7DC2F30063592B /* KoalaApp.swift */; };
 		CEF2C5742B7DC2F30063592B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2C5732B7DC2F30063592B /* ContentView.swift */; };
 		CEF2C5762B7DC2F30063592B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2C5752B7DC2F30063592B /* Item.swift */; };
@@ -367,7 +367,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					CE72F8432B7DCBBE00E13E4C = {
 						CreatedOnToolsVersion = 15.2;
@@ -534,10 +534,7 @@
 		};
 		CE72F8662B7DCBC000E13E4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			platformFilters = (
-				ios,
-				xros,
-			);
+			platformFilter = ios;
 			target = CE72F8432B7DCBBE00E13E4C /* KoalaWatch */;
 			targetProxy = CE72F8652B7DCBC000E13E4C /* PBXContainerItemProxy */;
 		};
@@ -729,6 +726,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -790,6 +788,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -818,6 +817,7 @@
 				CODE_SIGN_ENTITLEMENTS = Koala/Koala.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Koala/Preview Content\"";
 				DEVELOPMENT_TEAM = 86QLG35ZLT;
 				ENABLE_PREVIEWS = YES;
@@ -857,6 +857,7 @@
 				CODE_SIGN_ENTITLEMENTS = Koala/Koala.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Koala/Preview Content\"";
 				DEVELOPMENT_TEAM = 86QLG35ZLT;
 				ENABLE_PREVIEWS = YES;
@@ -894,6 +895,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -916,6 +918,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -937,6 +940,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -958,6 +962,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
