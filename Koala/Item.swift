@@ -6,13 +6,11 @@
 //
 
 import Foundation
-import SwiftData
 
-@Model
-final class Item {
-    var timestamp: Date
-    
-    init(timestamp: Date) {
-        self.timestamp = timestamp
-    }
+internal struct Item: Identifiable {
+
+    internal let id = UUID()
+    internal let timestamp = Date()
+    internal let name: String
+
 }
