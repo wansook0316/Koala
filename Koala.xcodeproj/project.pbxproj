@@ -184,6 +184,30 @@
 			path = KoalaWatchUITests;
 			sourceTree = "<group>";
 		};
+		CEE0BF012B7F26F500B7831A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEF2C5752B7DC2F30063592B /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEE0BF022B7F271000B7831A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEF2C5712B7DC2F30063592B /* KoalaApp.swift */,
+				CEF2C5732B7DC2F30063592B /* MainListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEE0BF032B7F273600B7831A /* Hiking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hiking;
+			sourceTree = "<group>";
+		};
 		CEF2C5652B7DC2F30063592B = {
 			isa = PBXGroup;
 			children = (
@@ -213,9 +237,9 @@
 		CEF2C5702B7DC2F30063592B /* Koala */ = {
 			isa = PBXGroup;
 			children = (
-				CEF2C5712B7DC2F30063592B /* KoalaApp.swift */,
-				CEF2C5732B7DC2F30063592B /* MainListView.swift */,
-				CEF2C5752B7DC2F30063592B /* Item.swift */,
+				CEE0BF012B7F26F500B7831A /* Models */,
+				CEE0BF022B7F271000B7831A /* Views */,
+				CEE0BF032B7F273600B7831A /* Hiking */,
 				CEF2C5772B7DC2F40063592B /* Assets.xcassets */,
 				CEF2C5792B7DC2F40063592B /* Koala.entitlements */,
 				CEF2C57A2B7DC2F40063592B /* Preview Content */,
