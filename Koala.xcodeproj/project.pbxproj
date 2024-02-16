@@ -16,7 +16,9 @@
 		CE72F8642B7DCBC000E13E4C /* KoalaWatchUILaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72F8632B7DCBC000E13E4C /* KoalaWatchUILaunchTests.swift */; };
 		CE72F8672B7DCBC000E13E4C /* KoalaWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CE72F8442B7DCBBE00E13E4C /* KoalaWatch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CEE0BF052B7F290400B7831A /* Hiking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0BF042B7F290400B7831A /* Hiking.swift */; };
-		CEE0BF072B7F291100B7831A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0BF062B7F291100B7831A /* ContentView.swift */; };
+		CEE0BF072B7F291100B7831A /* Hiking.ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0BF062B7F291100B7831A /* Hiking.ContentView.swift */; };
+		CEE0BF092B7F3A6D00B7831A /* Hiking.CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0BF082B7F3A6D00B7831A /* Hiking.CardView.swift */; };
+		CEE0BF0C2B7F3C0800B7831A /* Hiking.BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0BF0B2B7F3C0800B7831A /* Hiking.BackgroundView.swift */; };
 		CEF2C5722B7DC2F30063592B /* KoalaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2C5712B7DC2F30063592B /* KoalaApp.swift */; };
 		CEF2C5742B7DC2F30063592B /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2C5732B7DC2F30063592B /* MainListView.swift */; };
 		CEF2C5782B7DC2F40063592B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF2C5772B7DC2F40063592B /* Assets.xcassets */; };
@@ -90,7 +92,9 @@
 		CE72F8612B7DCBC000E13E4C /* KoalaWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaWatchUITests.swift; sourceTree = "<group>"; };
 		CE72F8632B7DCBC000E13E4C /* KoalaWatchUILaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaWatchUILaunchTests.swift; sourceTree = "<group>"; };
 		CEE0BF042B7F290400B7831A /* Hiking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking.swift; sourceTree = "<group>"; };
-		CEE0BF062B7F291100B7831A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEE0BF062B7F291100B7831A /* Hiking.ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking.ContentView.swift; sourceTree = "<group>"; };
+		CEE0BF082B7F3A6D00B7831A /* Hiking.CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking.CardView.swift; sourceTree = "<group>"; };
+		CEE0BF0B2B7F3C0800B7831A /* Hiking.BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking.BackgroundView.swift; sourceTree = "<group>"; };
 		CEF2C56E2B7DC2F30063592B /* Koala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF2C5712B7DC2F30063592B /* KoalaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaApp.swift; sourceTree = "<group>"; };
 		CEF2C5732B7DC2F30063592B /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
@@ -206,9 +210,19 @@
 			isa = PBXGroup;
 			children = (
 				CEE0BF042B7F290400B7831A /* Hiking.swift */,
-				CEE0BF062B7F291100B7831A /* ContentView.swift */,
+				CEE0BF062B7F291100B7831A /* Hiking.ContentView.swift */,
+				CEE0BF0A2B7F3BF200B7831A /* Components */,
 			);
 			path = Hiking;
+			sourceTree = "<group>";
+		};
+		CEE0BF0A2B7F3BF200B7831A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CEE0BF082B7F3A6D00B7831A /* Hiking.CardView.swift */,
+				CEE0BF0B2B7F3C0800B7831A /* Hiking.BackgroundView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		CEF2C5652B7DC2F30063592B = {
@@ -524,7 +538,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF2C5742B7DC2F30063592B /* MainListView.swift in Sources */,
-				CEE0BF072B7F291100B7831A /* ContentView.swift in Sources */,
+				CEE0BF072B7F291100B7831A /* Hiking.ContentView.swift in Sources */,
+				CEE0BF092B7F3A6D00B7831A /* Hiking.CardView.swift in Sources */,
+				CEE0BF0C2B7F3C0800B7831A /* Hiking.BackgroundView.swift in Sources */,
 				CEE0BF052B7F290400B7831A /* Hiking.swift in Sources */,
 				CEF2C5722B7DC2F30063592B /* KoalaApp.swift in Sources */,
 			);

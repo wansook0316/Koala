@@ -13,7 +13,7 @@ extension Hiking {
     internal struct ContentView: View {
 
         internal var body: some View {
-            Image(.image1)
+            Hiking.CardView()
         }
 
     }
