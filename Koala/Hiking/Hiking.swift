@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+internal enum Hiking {
+    
+}
