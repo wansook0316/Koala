@@ -11,14 +11,18 @@
 		CE72F8492B7DCBBE00E13E4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72F8482B7DCBBE00E13E4C /* ContentView.swift */; };
 		CE72F84B2B7DCBBF00E13E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE72F84A2B7DCBBF00E13E4C /* Assets.xcassets */; };
 		CE72F84E2B7DCBBF00E13E4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE72F84D2B7DCBBF00E13E4C /* Preview Assets.xcassets */; };
-		CE72F8582B7DCBC000E13E4C /* KoalaWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72F8572B7DCBC000E13E4C /* KoalaWatchTests.swift */; };
-		CE72F8622B7DCBC000E13E4C /* KoalaWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72F8612B7DCBC000E13E4C /* KoalaWatchUITests.swift */; };
-		CE72F8642B7DCBC000E13E4C /* KoalaWatchUILaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72F8632B7DCBC000E13E4C /* KoalaWatchUILaunchTests.swift */; };
 		CE72F8672B7DCBC000E13E4C /* KoalaWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CE72F8442B7DCBBE00E13E4C /* KoalaWatch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CE9560972B81C54700907448 /* CJH.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9560962B81C54700907448 /* CJH.swift */; };
-		CE9560992B81C55900907448 /* CWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9560982B81C55900907448 /* CWS.swift */; };
-		CE95609B2B81C5A600907448 /* CJH.ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95609A2B81C5A600907448 /* CJH.ContentView.swift */; };
-		CE95609D2B81C5D200907448 /* CWS.ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95609C2B81C5D200907448 /* CWS.ContentView.swift */; };
+		CE9560FF2B81CBF800907448 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = CE9560FE2B81CBF800907448 /* RealityKitContent */; };
+		CE9561012B81CBF800907448 /* KoalaVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9561002B81CBF800907448 /* KoalaVisionApp.swift */; };
+		CE9561052B81CBF800907448 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9561042B81CBF800907448 /* ImmersiveView.swift */; };
+		CE9561072B81CBF800907448 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = CE9561062B81CBF800907448 /* ImageBasedLighting.skybox */; };
+		CE9561092B81CBF900907448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9561082B81CBF900907448 /* Assets.xcassets */; };
+		CE95610C2B81CBF900907448 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE95610B2B81CBF900907448 /* Preview Assets.xcassets */; };
+		CE9561132B81CCE000907448 /* CWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9560982B81C55900907448 /* CWS.swift */; };
+		CE9561142B81CCE700907448 /* CWS.ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95609C2B81C5D200907448 /* CWS.ContentView.swift */; };
+		CE9561152B81CCEB00907448 /* CJH.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9560962B81C54700907448 /* CJH.swift */; };
+		CE9561162B81CCEE00907448 /* CJH.ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95609A2B81C5A600907448 /* CJH.ContentView.swift */; };
+		CE9561182B81CDD500907448 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9561172B81CDD500907448 /* MainListView.swift */; };
 		CEE0BF052B7F290400B7831A /* Hiking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0BF042B7F290400B7831A /* Hiking.swift */; };
 		CEE0BF072B7F291100B7831A /* Hiking.ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0BF062B7F291100B7831A /* Hiking.ContentView.swift */; };
 		CEE0BF092B7F3A6D00B7831A /* Hiking.CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0BF082B7F3A6D00B7831A /* Hiking.CardView.swift */; };
@@ -28,46 +32,15 @@
 		CEF2C5742B7DC2F30063592B /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2C5732B7DC2F30063592B /* MainListView.swift */; };
 		CEF2C5782B7DC2F40063592B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF2C5772B7DC2F40063592B /* Assets.xcassets */; };
 		CEF2C57C2B7DC2F40063592B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF2C57B2B7DC2F40063592B /* Preview Assets.xcassets */; };
-		CEF2C5862B7DC2F40063592B /* KoalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2C5852B7DC2F40063592B /* KoalaTests.swift */; };
-		CEF2C5902B7DC2F40063592B /* KoalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2C58F2B7DC2F40063592B /* KoalaUITests.swift */; };
-		CEF2C5922B7DC2F40063592B /* KoalaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2C5912B7DC2F40063592B /* KoalaUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE72F8542B7DCBC000E13E4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEF2C5662B7DC2F30063592B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE72F8432B7DCBBE00E13E4C;
-			remoteInfo = "KoalaWatch Watch App";
-		};
-		CE72F85E2B7DCBC000E13E4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEF2C5662B7DC2F30063592B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE72F8432B7DCBBE00E13E4C;
-			remoteInfo = "KoalaWatch Watch App";
-		};
 		CE72F8652B7DCBC000E13E4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEF2C5662B7DC2F30063592B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE72F8432B7DCBBE00E13E4C;
 			remoteInfo = "KoalaWatch Watch App";
-		};
-		CEF2C5822B7DC2F40063592B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEF2C5662B7DC2F30063592B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEF2C56D2B7DC2F30063592B;
-			remoteInfo = Koala;
-		};
-		CEF2C58C2B7DC2F40063592B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEF2C5662B7DC2F30063592B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEF2C56D2B7DC2F30063592B;
-			remoteInfo = Koala;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -91,15 +64,19 @@
 		CE72F8482B7DCBBE00E13E4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE72F84A2B7DCBBF00E13E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE72F84D2B7DCBBF00E13E4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CE72F8532B7DCBC000E13E4C /* KoalaWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoalaWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE72F8572B7DCBC000E13E4C /* KoalaWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaWatchTests.swift; sourceTree = "<group>"; };
-		CE72F85D2B7DCBC000E13E4C /* KoalaWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoalaWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE72F8612B7DCBC000E13E4C /* KoalaWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaWatchUITests.swift; sourceTree = "<group>"; };
-		CE72F8632B7DCBC000E13E4C /* KoalaWatchUILaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaWatchUILaunchTests.swift; sourceTree = "<group>"; };
 		CE9560962B81C54700907448 /* CJH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJH.swift; sourceTree = "<group>"; };
 		CE9560982B81C55900907448 /* CWS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWS.swift; sourceTree = "<group>"; };
 		CE95609A2B81C5A600907448 /* CJH.ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJH.ContentView.swift; sourceTree = "<group>"; };
 		CE95609C2B81C5D200907448 /* CWS.ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWS.ContentView.swift; sourceTree = "<group>"; };
+		CE9560FA2B81CBF800907448 /* KoalaVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoalaVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9560FD2B81CBF800907448 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		CE9561002B81CBF800907448 /* KoalaVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaVisionApp.swift; sourceTree = "<group>"; };
+		CE9561042B81CBF800907448 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		CE9561062B81CBF800907448 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		CE9561082B81CBF900907448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE95610B2B81CBF900907448 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE95610D2B81CBF900907448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9561172B81CDD500907448 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 		CEE0BF042B7F290400B7831A /* Hiking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking.swift; sourceTree = "<group>"; };
 		CEE0BF062B7F291100B7831A /* Hiking.ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking.ContentView.swift; sourceTree = "<group>"; };
 		CEE0BF082B7F3A6D00B7831A /* Hiking.CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking.CardView.swift; sourceTree = "<group>"; };
@@ -111,11 +88,6 @@
 		CEF2C5772B7DC2F40063592B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEF2C5792B7DC2F40063592B /* Koala.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Koala.entitlements; sourceTree = "<group>"; };
 		CEF2C57B2B7DC2F40063592B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CEF2C5812B7DC2F40063592B /* KoalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF2C5852B7DC2F40063592B /* KoalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaTests.swift; sourceTree = "<group>"; };
-		CEF2C58B2B7DC2F40063592B /* KoalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF2C58F2B7DC2F40063592B /* KoalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaUITests.swift; sourceTree = "<group>"; };
-		CEF2C5912B7DC2F40063592B /* KoalaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,35 +98,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE72F8502B7DCBC000E13E4C /* Frameworks */ = {
+		CE9560F72B81CBF800907448 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE72F85A2B7DCBC000E13E4C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CE9560FF2B81CBF800907448 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CEF2C56B2B7DC2F30063592B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEF2C57E2B7DC2F40063592B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEF2C5882B7DC2F40063592B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,32 +135,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CE72F8562B7DCBC000E13E4C /* KoalaWatchTests */ = {
-			isa = PBXGroup;
-			children = (
-				CE72F8572B7DCBC000E13E4C /* KoalaWatchTests.swift */,
-			);
-			path = KoalaWatchTests;
-			sourceTree = "<group>";
-		};
-		CE72F8602B7DCBC000E13E4C /* KoalaWatchUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CE72F8612B7DCBC000E13E4C /* KoalaWatchUITests.swift */,
-				CE72F8632B7DCBC000E13E4C /* KoalaWatchUILaunchTests.swift */,
-			);
-			path = KoalaWatchUITests;
-			sourceTree = "<group>";
-		};
-		CE9560932B81C50900907448 /* VisionOS */ = {
-			isa = PBXGroup;
-			children = (
-				CE9560952B81C52200907448 /* CJH */,
-				CE9560942B81C51D00907448 /* CWS */,
-			);
-			path = VisionOS;
-			sourceTree = "<group>";
-		};
 		CE9560942B81C51D00907448 /* CWS */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +151,38 @@
 				CE95609A2B81C5A600907448 /* CJH.ContentView.swift */,
 			);
 			path = CJH;
+			sourceTree = "<group>";
+		};
+		CE9560FB2B81CBF800907448 /* KoalaVision */ = {
+			isa = PBXGroup;
+			children = (
+				CE9560952B81C52200907448 /* CJH */,
+				CE9560942B81C51D00907448 /* CWS */,
+				CE9561002B81CBF800907448 /* KoalaVisionApp.swift */,
+				CE9561172B81CDD500907448 /* MainListView.swift */,
+				CE9561042B81CBF800907448 /* ImmersiveView.swift */,
+				CE9561062B81CBF800907448 /* ImageBasedLighting.skybox */,
+				CE9561082B81CBF900907448 /* Assets.xcassets */,
+				CE95610D2B81CBF900907448 /* Info.plist */,
+				CE95610A2B81CBF900907448 /* Preview Content */,
+			);
+			path = KoalaVision;
+			sourceTree = "<group>";
+		};
+		CE9560FC2B81CBF800907448 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CE9560FD2B81CBF800907448 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		CE95610A2B81CBF900907448 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE95610B2B81CBF900907448 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		CEE0BF012B7F26F500B7831A /* Models */ = {
@@ -267,11 +225,9 @@
 			isa = PBXGroup;
 			children = (
 				CEF2C5702B7DC2F30063592B /* Koala */,
-				CEF2C5842B7DC2F40063592B /* KoalaTests */,
-				CEF2C58E2B7DC2F40063592B /* KoalaUITests */,
 				CE72F8452B7DCBBE00E13E4C /* KoalaWatch */,
-				CE72F8562B7DCBC000E13E4C /* KoalaWatchTests */,
-				CE72F8602B7DCBC000E13E4C /* KoalaWatchUITests */,
+				CE9560FB2B81CBF800907448 /* KoalaVision */,
+				CE9560FC2B81CBF800907448 /* Packages */,
 				CEF2C56F2B7DC2F30063592B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -280,11 +236,8 @@
 			isa = PBXGroup;
 			children = (
 				CEF2C56E2B7DC2F30063592B /* Koala.app */,
-				CEF2C5812B7DC2F40063592B /* KoalaTests.xctest */,
-				CEF2C58B2B7DC2F40063592B /* KoalaUITests.xctest */,
 				CE72F8442B7DCBBE00E13E4C /* KoalaWatch.app */,
-				CE72F8532B7DCBC000E13E4C /* KoalaWatchTests.xctest */,
-				CE72F85D2B7DCBC000E13E4C /* KoalaWatchUITests.xctest */,
+				CE9560FA2B81CBF800907448 /* KoalaVision.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -292,7 +245,6 @@
 		CEF2C5702B7DC2F30063592B /* Koala */ = {
 			isa = PBXGroup;
 			children = (
-				CE9560932B81C50900907448 /* VisionOS */,
 				CEE0BF012B7F26F500B7831A /* Models */,
 				CEE0BF022B7F271000B7831A /* Views */,
 				CEE0BF032B7F273600B7831A /* Hiking */,
@@ -309,23 +261,6 @@
 				CEF2C57B2B7DC2F40063592B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		CEF2C5842B7DC2F40063592B /* KoalaTests */ = {
-			isa = PBXGroup;
-			children = (
-				CEF2C5852B7DC2F40063592B /* KoalaTests.swift */,
-			);
-			path = KoalaTests;
-			sourceTree = "<group>";
-		};
-		CEF2C58E2B7DC2F40063592B /* KoalaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CEF2C58F2B7DC2F40063592B /* KoalaUITests.swift */,
-				CEF2C5912B7DC2F40063592B /* KoalaUITestsLaunchTests.swift */,
-			);
-			path = KoalaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,41 +283,25 @@
 			productReference = CE72F8442B7DCBBE00E13E4C /* KoalaWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE72F8522B7DCBC000E13E4C /* KoalaWatchTests */ = {
+		CE9560F92B81CBF800907448 /* KoalaVision */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE72F8702B7DCBC000E13E4C /* Build configuration list for PBXNativeTarget "KoalaWatchTests" */;
+			buildConfigurationList = CE95610E2B81CBF900907448 /* Build configuration list for PBXNativeTarget "KoalaVision" */;
 			buildPhases = (
-				CE72F84F2B7DCBC000E13E4C /* Sources */,
-				CE72F8502B7DCBC000E13E4C /* Frameworks */,
-				CE72F8512B7DCBC000E13E4C /* Resources */,
+				CE9560F62B81CBF800907448 /* Sources */,
+				CE9560F72B81CBF800907448 /* Frameworks */,
+				CE9560F82B81CBF800907448 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE72F8552B7DCBC000E13E4C /* PBXTargetDependency */,
 			);
-			name = KoalaWatchTests;
-			productName = "KoalaWatch Watch AppTests";
-			productReference = CE72F8532B7DCBC000E13E4C /* KoalaWatchTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CE72F85C2B7DCBC000E13E4C /* KoalaWatchUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE72F8712B7DCBC000E13E4C /* Build configuration list for PBXNativeTarget "KoalaWatchUITests" */;
-			buildPhases = (
-				CE72F8592B7DCBC000E13E4C /* Sources */,
-				CE72F85A2B7DCBC000E13E4C /* Frameworks */,
-				CE72F85B2B7DCBC000E13E4C /* Resources */,
+			name = KoalaVision;
+			packageProductDependencies = (
+				CE9560FE2B81CBF800907448 /* RealityKitContent */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-				CE72F85F2B7DCBC000E13E4C /* PBXTargetDependency */,
-			);
-			name = KoalaWatchUITests;
-			productName = "KoalaWatch Watch AppUITests";
-			productReference = CE72F85D2B7DCBC000E13E4C /* KoalaWatchUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			productName = KoalaVision;
+			productReference = CE9560FA2B81CBF800907448 /* KoalaVision.app */;
+			productType = "com.apple.product-type.application";
 		};
 		CEF2C56D2B7DC2F30063592B /* Koala */ = {
 			isa = PBXNativeTarget;
@@ -403,42 +322,6 @@
 			productReference = CEF2C56E2B7DC2F30063592B /* Koala.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEF2C5802B7DC2F40063592B /* KoalaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEF2C5982B7DC2F40063592B /* Build configuration list for PBXNativeTarget "KoalaTests" */;
-			buildPhases = (
-				CEF2C57D2B7DC2F40063592B /* Sources */,
-				CEF2C57E2B7DC2F40063592B /* Frameworks */,
-				CEF2C57F2B7DC2F40063592B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEF2C5832B7DC2F40063592B /* PBXTargetDependency */,
-			);
-			name = KoalaTests;
-			productName = KoalaTests;
-			productReference = CEF2C5812B7DC2F40063592B /* KoalaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CEF2C58A2B7DC2F40063592B /* KoalaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEF2C59B2B7DC2F40063592B /* Build configuration list for PBXNativeTarget "KoalaUITests" */;
-			buildPhases = (
-				CEF2C5872B7DC2F40063592B /* Sources */,
-				CEF2C5882B7DC2F40063592B /* Frameworks */,
-				CEF2C5892B7DC2F40063592B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEF2C58D2B7DC2F40063592B /* PBXTargetDependency */,
-			);
-			name = KoalaUITests;
-			productName = KoalaUITests;
-			productReference = CEF2C58B2B7DC2F40063592B /* KoalaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -452,24 +335,11 @@
 					CE72F8432B7DCBBE00E13E4C = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					CE72F8522B7DCBC000E13E4C = {
+					CE9560F92B81CBF800907448 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = CE72F8432B7DCBBE00E13E4C;
-					};
-					CE72F85C2B7DCBC000E13E4C = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = CE72F8432B7DCBBE00E13E4C;
 					};
 					CEF2C56D2B7DC2F30063592B = {
 						CreatedOnToolsVersion = 15.0;
-					};
-					CEF2C5802B7DC2F40063592B = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = CEF2C56D2B7DC2F30063592B;
-					};
-					CEF2C58A2B7DC2F40063592B = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = CEF2C56D2B7DC2F30063592B;
 					};
 				};
 			};
@@ -487,11 +357,8 @@
 			projectRoot = "";
 			targets = (
 				CEF2C56D2B7DC2F30063592B /* Koala */,
-				CEF2C5802B7DC2F40063592B /* KoalaTests */,
-				CEF2C58A2B7DC2F40063592B /* KoalaUITests */,
 				CE72F8432B7DCBBE00E13E4C /* KoalaWatch */,
-				CE72F8522B7DCBC000E13E4C /* KoalaWatchTests */,
-				CE72F85C2B7DCBC000E13E4C /* KoalaWatchUITests */,
+				CE9560F92B81CBF800907448 /* KoalaVision */,
 			);
 		};
 /* End PBXProject section */
@@ -506,17 +373,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE72F8512B7DCBC000E13E4C /* Resources */ = {
+		CE9560F82B81CBF800907448 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE72F85B2B7DCBC000E13E4C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CE9561092B81CBF900907448 /* Assets.xcassets in Resources */,
+				CE95610C2B81CBF900907448 /* Preview Assets.xcassets in Resources */,
+				CE9561072B81CBF800907448 /* ImageBasedLighting.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,20 +389,6 @@
 			files = (
 				CEF2C57C2B7DC2F40063592B /* Preview Assets.xcassets in Resources */,
 				CEF2C5782B7DC2F40063592B /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEF2C57F2B7DC2F40063592B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEF2C5892B7DC2F40063592B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,20 +404,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE72F84F2B7DCBC000E13E4C /* Sources */ = {
+		CE9560F62B81CBF800907448 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE72F8582B7DCBC000E13E4C /* KoalaWatchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE72F8592B7DCBC000E13E4C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE72F8622B7DCBC000E13E4C /* KoalaWatchUITests.swift in Sources */,
-				CE72F8642B7DCBC000E13E4C /* KoalaWatchUILaunchTests.swift in Sources */,
+				CE9561182B81CDD500907448 /* MainListView.swift in Sources */,
+				CE9561142B81CCE700907448 /* CWS.ContentView.swift in Sources */,
+				CE9561162B81CCEE00907448 /* CJH.ContentView.swift in Sources */,
+				CE9561132B81CCE000907448 /* CWS.swift in Sources */,
+				CE9561012B81CBF800907448 /* KoalaVisionApp.swift in Sources */,
+				CE9561052B81CBF800907448 /* ImmersiveView.swift in Sources */,
+				CE9561152B81CCEB00907448 /* CJH.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,64 +423,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF2C5742B7DC2F30063592B /* MainListView.swift in Sources */,
-				CE95609D2B81C5D200907448 /* CWS.ContentView.swift in Sources */,
-				CE9560972B81C54700907448 /* CJH.swift in Sources */,
 				CEE0BF072B7F291100B7831A /* Hiking.ContentView.swift in Sources */,
 				CEE0BF092B7F3A6D00B7831A /* Hiking.CardView.swift in Sources */,
 				CEE0BF0C2B7F3C0800B7831A /* Hiking.BackgroundView.swift in Sources */,
-				CE9560992B81C55900907448 /* CWS.swift in Sources */,
 				CEE0BF0E2B7F422000B7831A /* Hiking.ButtonView.swift in Sources */,
-				CE95609B2B81C5A600907448 /* CJH.ContentView.swift in Sources */,
 				CEE0BF052B7F290400B7831A /* Hiking.swift in Sources */,
 				CEF2C5722B7DC2F30063592B /* KoalaApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEF2C57D2B7DC2F40063592B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEF2C5862B7DC2F40063592B /* KoalaTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEF2C5872B7DC2F40063592B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEF2C5902B7DC2F40063592B /* KoalaUITests.swift in Sources */,
-				CEF2C5922B7DC2F40063592B /* KoalaUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE72F8552B7DCBC000E13E4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE72F8432B7DCBBE00E13E4C /* KoalaWatch */;
-			targetProxy = CE72F8542B7DCBC000E13E4C /* PBXContainerItemProxy */;
-		};
-		CE72F85F2B7DCBC000E13E4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE72F8432B7DCBBE00E13E4C /* KoalaWatch */;
-			targetProxy = CE72F85E2B7DCBC000E13E4C /* PBXContainerItemProxy */;
-		};
 		CE72F8662B7DCBC000E13E4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = ios;
 			target = CE72F8432B7DCBBE00E13E4C /* KoalaWatch */;
 			targetProxy = CE72F8652B7DCBC000E13E4C /* PBXContainerItemProxy */;
-		};
-		CEF2C5832B7DC2F40063592B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEF2C56D2B7DC2F30063592B /* Koala */;
-			targetProxy = CEF2C5822B7DC2F40063592B /* PBXContainerItemProxy */;
-		};
-		CEF2C58D2B7DC2F40063592B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEF2C56D2B7DC2F30063592B /* Koala */;
-			targetProxy = CEF2C58C2B7DC2F40063592B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -700,83 +505,60 @@
 			};
 			name = Release;
 		};
-		CE72F86B2B7DCBC000E13E4C /* Debug */ = {
+		CE95610F2B81CBF900907448 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KoalaVision/Preview Content\"";
+				DEVELOPMENT_TEAM = 86QLG35ZLT;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wansook.KoalaWatch-Watch-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wansook.KoalaVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoalaWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KoalaWatch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
 		};
-		CE72F86C2B7DCBC000E13E4C /* Release */ = {
+		CE9561102B81CBF900907448 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KoalaVision/Preview Content\"";
+				DEVELOPMENT_TEAM = 86QLG35ZLT;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wansook.KoalaWatch-Watch-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wansook.KoalaVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoalaWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KoalaWatch Watch App";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Release;
-		};
-		CE72F86D2B7DCBC000E13E4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wansook.KoalaWatch-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "KoalaWatch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Debug;
-		};
-		CE72F86E2B7DCBC000E13E4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wansook.KoalaWatch-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "KoalaWatch Watch App";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
@@ -928,11 +710,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wansook.Koala;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -968,101 +750,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wansook.Koala;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-			};
-			name = Release;
-		};
-		CEF2C5992B7DC2F40063592B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wansook.KoalaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koala.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Koala";
-			};
-			name = Debug;
-		};
-		CEF2C59A2B7DC2F40063592B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wansook.KoalaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koala.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Koala";
-			};
-			name = Release;
-		};
-		CEF2C59C2B7DC2F40063592B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wansook.KoalaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Koala;
-			};
-			name = Debug;
-		};
-		CEF2C59D2B7DC2F40063592B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wansook.KoalaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Koala;
 			};
 			name = Release;
 		};
@@ -1078,20 +770,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE72F8702B7DCBC000E13E4C /* Build configuration list for PBXNativeTarget "KoalaWatchTests" */ = {
+		CE95610E2B81CBF900907448 /* Build configuration list for PBXNativeTarget "KoalaVision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE72F86B2B7DCBC000E13E4C /* Debug */,
-				CE72F86C2B7DCBC000E13E4C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE72F8712B7DCBC000E13E4C /* Build configuration list for PBXNativeTarget "KoalaWatchUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE72F86D2B7DCBC000E13E4C /* Debug */,
-				CE72F86E2B7DCBC000E13E4C /* Release */,
+				CE95610F2B81CBF900907448 /* Debug */,
+				CE9561102B81CBF900907448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1114,25 +797,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEF2C5982B7DC2F40063592B /* Build configuration list for PBXNativeTarget "KoalaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEF2C5992B7DC2F40063592B /* Debug */,
-				CEF2C59A2B7DC2F40063592B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEF2C59B2B7DC2F40063592B /* Build configuration list for PBXNativeTarget "KoalaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEF2C59C2B7DC2F40063592B /* Debug */,
-				CEF2C59D2B7DC2F40063592B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE9560FE2B81CBF800907448 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEF2C5662B7DC2F30063592B /* Project object */;
 }
