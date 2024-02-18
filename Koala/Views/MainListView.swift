@@ -16,6 +16,12 @@ internal struct MainListView: View {
                 NavigationLink("Hiking") {
                     Hiking.ContentView()
                 }
+                NavigationLink("조중현") {
+                    CJH.ContentView()
+                }
+                NavigationLink("최완식") {
+                    CWS.ContentView()
+                }
             }
             .navigationTitle("화면 리스트")
         }
