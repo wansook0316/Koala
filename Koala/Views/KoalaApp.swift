@@ -14,6 +14,7 @@ internal struct KoalaApp: App {
     internal var body: some Scene {
         WindowGroup {
             MainListView()
+//            Hiking.ContentView()
         }
     }
 

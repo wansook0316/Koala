@@ -73,18 +73,8 @@ extension Hiking {
                     // MARK: - MAIN CONTENT
 
                     ZStack {
-                        Circle()
-                            .fill(
-                                LinearGradient(
-                                    colors: [
-                                        Color.colorIndigoMedium,
-                                        Color.colorSalmonLight
-                                    ],
-                                    startPoint: .topLeading,
-                                    endPoint: .bottomTrailing
-                                )
-                            )
-                            .frame(width: 256, height: 256)
+                        Hiking.CircleView()
+                        
                         Image(.init(name: "image-\(self.imageNumber)", bundle: .main))
                             .resizable()
                             .scaledToFit()
@@ -116,6 +106,7 @@ extension Hiking {
                 }
             }
             .frame(width: 320, height: 570)
+            .navigationTitle("Hiking")
         }
 
     }
