@@ -31,6 +31,7 @@
 		CEE0BF0E2B7F422000B7831A /* Hiking.ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0BF0D2B7F422000B7831A /* Hiking.ButtonView.swift */; };
 		CEEB1FE12B83118D00390D7A /* Hiking.CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1FE02B83118D00390D7A /* Hiking.CircleView.swift */; };
 		CEEB1FE32B83133800390D7A /* Hiking.MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1FE22B83133800390D7A /* Hiking.MotionAnimationView.swift */; };
+		CEEB1FE62B83242C00390D7A /* Hiking.SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB1FE52B83242C00390D7A /* Hiking.SettingsView.swift */; };
 		CEF2C5722B7DC2F30063592B /* KoalaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2C5712B7DC2F30063592B /* KoalaApp.swift */; };
 		CEF2C5742B7DC2F30063592B /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2C5732B7DC2F30063592B /* MainListView.swift */; };
 		CEF2C5782B7DC2F40063592B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF2C5772B7DC2F40063592B /* Assets.xcassets */; };
@@ -88,6 +89,7 @@
 		CEE0BF0D2B7F422000B7831A /* Hiking.ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking.ButtonView.swift; sourceTree = "<group>"; };
 		CEEB1FE02B83118D00390D7A /* Hiking.CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking.CircleView.swift; sourceTree = "<group>"; };
 		CEEB1FE22B83133800390D7A /* Hiking.MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking.MotionAnimationView.swift; sourceTree = "<group>"; };
+		CEEB1FE52B83242C00390D7A /* Hiking.SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking.SettingsView.swift; sourceTree = "<group>"; };
 		CEF2C56E2B7DC2F30063592B /* Koala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF2C5712B7DC2F30063592B /* KoalaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoalaApp.swift; sourceTree = "<group>"; };
 		CEF2C5732B7DC2F30063592B /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
@@ -220,7 +222,7 @@
 			children = (
 				CE54E7B42B830D0A00288930 /* Utility */,
 				CEE0BF042B7F290400B7831A /* Hiking.swift */,
-				CEE0BF062B7F291100B7831A /* Hiking.ContentView.swift */,
+				CEEB1FE42B83241A00390D7A /* Screen */,
 				CEE0BF0A2B7F3BF200B7831A /* Components */,
 			);
 			path = Hiking;
@@ -236,6 +238,15 @@
 				CEEB1FE22B83133800390D7A /* Hiking.MotionAnimationView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		CEEB1FE42B83241A00390D7A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CEE0BF062B7F291100B7831A /* Hiking.ContentView.swift */,
+				CEEB1FE52B83242C00390D7A /* Hiking.SettingsView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		CEF2C5652B7DC2F30063592B = {
@@ -447,6 +458,7 @@
 				CE54E7B32B830D0400288930 /* Hiking.GradientButtonStyle.swift in Sources */,
 				CEE0BF0E2B7F422000B7831A /* Hiking.ButtonView.swift in Sources */,
 				CEE0BF052B7F290400B7831A /* Hiking.swift in Sources */,
+				CEEB1FE62B83242C00390D7A /* Hiking.SettingsView.swift in Sources */,
 				CEF2C5722B7DC2F30063592B /* KoalaApp.swift in Sources */,
 				CEEB1FE32B83133800390D7A /* Hiking.MotionAnimationView.swift in Sources */,
 			);

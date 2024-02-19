@@ -15,6 +15,7 @@ extension Hiking {
 
         @State private var imageNumber: Int = 1
         @State private var randomNumber: Int = 1
+        @State private var isShowingSheet: Bool = false
 
         // MARK: - FUNCTIONS
 
@@ -58,9 +59,14 @@ extension Hiking {
                             Spacer()
 
                             Button {
-                                print("The button was pressed.")
+                                self.isShowingSheet.toggle()
                             } label: {
                                 Hiking.ButtonView()
+                            }
+                            .sheet(isPresented: $isShowingSheet) {
+                                Hiking.SettingsView()
+                                    .presentationDragIndicator(.visible)
+                                    .presentationDetents([.medium, .large])
                             }
                         }
                         Text("Func and enjoyazble outdoor activity for friends and famiulies.")
