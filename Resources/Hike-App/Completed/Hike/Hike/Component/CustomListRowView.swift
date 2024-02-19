@@ -23,10 +23,10 @@ struct CustomListRowView: View {
         Text(rowContent!)
           .foregroundColor(.primary)
           .fontWeight(.heavy)
-      } else if (rowLinkLabel != nil && rowLinkDestination != nil) {
-        Link(rowLinkLabel!, destination: URL(string: rowLinkDestination!)!)
-          .foregroundColor(.pink)
-          .fontWeight(.heavy)
+      } else if let rowLinkLabel, let rowLinkDestination {
+          Link(rowLinkLabel, destination: URL(string: rowLinkDestination)!)
+            .foregroundColor(.pink)
+            .fontWeight(.heavy)
       } else {
         EmptyView()
       }
