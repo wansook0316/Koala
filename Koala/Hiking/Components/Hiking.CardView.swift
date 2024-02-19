@@ -11,6 +11,26 @@ extension Hiking {
 
     internal struct CardView: View {
 
+        // MARK: - Properties
+
+        @State private var imageNumber: Int = 1
+        @State private var randomNumber: Int = 1
+
+        // MARK: - FUNCTIONS
+
+        internal func randomImage() {
+            print("-- Button was pressed ---")
+            print("old image number = \(self.imageNumber)")
+
+            repeat {
+                self.randomNumber = Int.random(in: 1...5)
+                print("generated \(self.randomNumber)")
+            } while self.randomNumber == self.imageNumber
+
+            print("result \(self.imageNumber)")
+            self.imageNumber = self.randomNumber
+        }
+
         internal var body: some View {
             ZStack {
                 Hiking.BackgroundView()
@@ -65,13 +85,34 @@ extension Hiking {
                                 )
                             )
                             .frame(width: 256, height: 256)
-                        Image(.image1)
+                        Image(.init(name: "image-\(self.imageNumber)", bundle: .main))
                             .resizable()
                             .scaledToFit()
+                            .animation(.default, value: self.imageNumber)
                     }
 
                     // MARK: - FOOTER
 
+                    Button {
+                        print("Button Pressed")
+                        self.randomImage()
+                    } label: {
+                        Text("Explore More")
+                            .font(.title2)
+                            .fontWeight(.heavy)
+                            .foregroundStyle(
+                                LinearGradient(
+                                    colors: [
+                                        .colorGreenLight,
+                                        .colorGreenMedium
+                                    ], 
+                                    startPoint: .top,
+                                    endPoint: .bottom
+                                )
+                            )
+                            .shadow(color: .black.opacity(0.25), radius: 0.25, x: 1, y: 2)
+                    }
+                    .buttonStyle(GradientButton())
                 }
             }
             .frame(width: 320, height: 570)
